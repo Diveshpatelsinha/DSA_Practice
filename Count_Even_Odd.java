@@ -5,8 +5,9 @@ public class Count_Even_Odd{
         int even = 0;
         int odd = 0;
 
-        for(int i = 0; i<arr.length;i++){
-            if(arr[i]%2 == 0){
+        // for(int i = 0; i<arr.length;i++)
+        for(int i : arr){
+            if(i%2 == 0){
                 even++;
             }else odd++;
         }
