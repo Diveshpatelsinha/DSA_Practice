@@ -10,6 +10,8 @@ public class Find_Missing_Number {
             actual +=i;
         }
        System.out.println(sum-actual);
+        System.out.println(arr.length);
+       
 
        
     }
