@@ -9,5 +9,6 @@ public class AllSubstring {
                 System.out.println(temp);
             }
         }
+        // System.out.println(s.length()-1);
     }
 }
